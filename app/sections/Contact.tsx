@@ -96,13 +96,13 @@ export default function Contact() {
                     width: 42,
                     height: 42,
                     borderRadius: 10,
-                    background: 'rgba(255, 255, 255, 0.04)',
+                    background: 'var(--bg-card)',
                     border: '1px solid var(--border-color)',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
                   }}>
-                    <Mail size={16} color="#ffffff" />
+                    <Mail size={16} color="var(--text-primary)" />
                   </div>
                   <div>
                     <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', marginBottom: 2 }}>Email</p>
@@ -117,13 +117,13 @@ export default function Contact() {
                     width: 42,
                     height: 42,
                     borderRadius: 10,
-                    background: 'rgba(255, 255, 255, 0.04)',
+                    background: 'var(--bg-card)',
                     border: '1px solid var(--border-color)',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
                   }}>
-                    <MapPin size={16} color="#ffffff" />
+                    <MapPin size={16} color="var(--text-primary)" />
                   </div>
                   <div>
                     <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', marginBottom: 2 }}>Location</p>
@@ -138,13 +138,13 @@ export default function Contact() {
                     width: 42,
                     height: 42,
                     borderRadius: 10,
-                    background: 'rgba(255, 255, 255, 0.04)',
+                    background: 'var(--bg-card)',
                     border: '1px solid var(--border-color)',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
                   }}>
-                    <MessageSquare size={16} color="#ffffff" />
+                    <MessageSquare size={16} color="var(--text-primary)" />
                   </div>
                   <div>
                     <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', marginBottom: 2 }}>Response Time</p>

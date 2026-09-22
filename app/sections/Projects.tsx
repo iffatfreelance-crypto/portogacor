@@ -35,7 +35,7 @@ const projects = [
     description: 'Personal developer portfolio with high-performance dark minimalist monochrome aesthetics, custom smooth transitions, and type-safe architecture.',
     tech: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Motion'],
     github: 'https://github.com/RyHarJr/portofoliov2',
-    demo: 'https://ryhar.my.id',
+    demo: 'https://ryhar.my.idportogacor.vercel.app',
     isPrivate: false,
   },
 ];

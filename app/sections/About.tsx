@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import { useState } from 'react';
 import { motion, type Variants } from 'motion/react';
-import { MapPin, Coffee, Moon, Headphones, Terminal, Sparkles, BookOpen, ExternalLink } from 'lucide-react';
+import { MapPin, Coffee, Moon, Headphones, Terminal, Sparkles } from 'lucide-react';
 
 const fadeUp: Variants = {
   hidden: { opacity: 0, y: 25 },

@@ -28,8 +28,10 @@ export default function Hero() {
     } else if (isDeleting && displayed.length > 0) {
       timeout = setTimeout(() => setDisplayed(word.slice(0, displayed.length - 1)), 50);
     } else if (isDeleting && displayed.length === 0) {
-      setIsDeleting(false);
-      setWordIndex((i) => (i + 1) % typewriterWords.length);
+      timeout = setTimeout(() => {
+        setIsDeleting(false);
+        setWordIndex((i) => (i + 1) % typewriterWords.length);
+      }, 300);
     }
 
     return () => clearTimeout(timeout);

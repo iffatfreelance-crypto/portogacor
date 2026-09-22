@@ -16,14 +16,16 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio — Web Developer & Designer",
-  description: "Personal portfolio showcasing projects, skills, and experience. Full-stack developer with a passion for clean UI and modern web technologies.",
-  keywords: ["portfolio", "web developer", "frontend", "nextjs", "typescript", "react"],
-  authors: [{ name: "Your Name" }],
+  title: "Iffat Fakhir — Portfolio & Software Engineer",
+  description: "Portofolio profesional Iffat Fakhir — Mahasiswa TRPL & Fullstack Developer. Membangun aplikasi web modern, performa tinggi, dan skalabel.",
+  keywords: ["Iffat Fakhir", "Portfolio", "Web Developer", "Software Engineer", "TRPL", "Next.js", "TypeScript", "React", "Fullstack Developer"],
+  authors: [{ name: "Iffat Fakhir" }],
+  creator: "Iffat Fakhir",
   openGraph: {
-    title: "Portfolio — Web Developer & Designer",
-    description: "Personal portfolio showcasing projects, skills, and experience.",
+    title: "Iffat Fakhir — Portfolio & Software Engineer",
+    description: "Portofolio profesional Iffat Fakhir — Mahasiswa TRPL & Fullstack Developer.",
     type: "website",
+    locale: "id_ID",
   },
 };
 
